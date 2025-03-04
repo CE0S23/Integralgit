@@ -1,0 +1,96 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e7e0fe, #e4e4e4); /* Degradado suave */
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #1a3ab8; /* Azul moderno */
+    font-size: 2em;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+    border-color: #1e88e5;
+    outline: none;
+}
+
+.login-form button {
+    padding: 12px;
+    background-color: #095cec; /* Azul fuerte */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form button:hover {
+    background-color: #15c043; /* Verde al pasar el mouse */
+    transform: translateY(-2px);
+}
+
+.login-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.google-button {
+    background-color: #dc3545; /* Rojo Google */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.google-button:hover {
+    background-color: #b2222d;
+    transform: translateY(-2px);
+}
+
+.error-message {
+    color: red;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.google-icon {
+    height: 20px;
+    margin-right: 10px;
+}
