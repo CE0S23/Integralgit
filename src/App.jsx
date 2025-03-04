@@ -8,6 +8,8 @@ import Dashboard from "./pages/Dashboard";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { FaUser } from "react-icons/fa";
+
 
 function App() {
   const [count, setCount] = useState(0);

@@ -1,7 +1,13 @@
 import { useEffect, useState } from "react";
 import { collection, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import { 
+    BarChart, Bar, 
+    LineChart, Line, 
+    XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
+  } from "recharts";
+  
+
 
 function Graph() {
     const [data, setData] = useState({});
